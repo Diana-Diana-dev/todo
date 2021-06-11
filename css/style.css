@@ -1,0 +1,72 @@
+body {
+  width: 1024px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  width: 70%;
+  padding: 60px;
+}
+
+.input_form {
+  display: flex;
+  border: 1px solid #E0E0E0;
+  background: #F0F0F0;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+.img_lupa {
+  width: 50px;
+  height: 50px;
+}
+
+.search {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #373737;
+  border: none;
+  outline: none;
+  background: #F0F0F0;
+  margin-left: 20px;
+}
+
+.sections {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.All {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #373737;
+}
+
+.Active {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #373737;
+}
+
+.Done {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #373737;
+}
