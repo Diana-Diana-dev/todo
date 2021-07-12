@@ -42,6 +42,7 @@ body {
   display: flex;
   width: 50%;
   justify-content: space-around;
+  margin-bottom: 2em;
 }
 
 .All {
@@ -51,6 +52,27 @@ body {
   font-size: 20px;
   line-height: 150%;
   color: #373737;
+  text-align: center;
+  border: none;
+  background: #FFFFFF;
+}
+
+.All:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.All::after {
+  content: " ";
+  border: 1px solid #FFFFFF;
+  width: 70px;
+  height: 0;
+  display: block;
+}
+
+.All:focus::after {
+  content: " ";
+  border: 1px solid #3366FF;
 }
 
 .Active {
@@ -60,6 +82,27 @@ body {
   font-size: 20px;
   line-height: 150%;
   color: #373737;
+  text-align: center;
+  border: none;
+  background: #FFFFFF;
+}
+
+.Active:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.Active::after {
+  content: " ";
+  border: 1px solid #FFFFFF;
+  width: 70px;
+  height: 0;
+  display: block;
+}
+
+.Active:focus::after {
+  content: " ";
+  border: 1px solid #3366FF;
 }
 
 .Done {
@@ -69,4 +112,90 @@ body {
   font-size: 20px;
   line-height: 150%;
   color: #373737;
+  text-align: center;
+  border: none;
+  background: #FFFFFF;
+}
+
+.Done:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.Done::after {
+  content: " ";
+  border: 1px solid #FFFFFF;
+  width: 70px;
+  height: 0;
+  display: block;
+}
+
+.Done:focus::after {
+  content: " ";
+  border: 1px solid #3366FF;
+}
+
+.add_form {
+  display: block;
+}
+
+.add_label {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  color: #373737;
+}
+
+.add_input {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #373737;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid #E0E0E0;
+}
+
+.add_button {
+  display: block;
+  background: #3366FF;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 60px;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  float: right;
+  margin: 20px 0;
+}
+
+.add_button:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.task {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #373737;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid #E0E0E0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

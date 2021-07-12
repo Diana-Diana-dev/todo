@@ -7,22 +7,35 @@
 	 	 		<link rel="stylesheet" media="screen and (max-width:1024px)" href="css/style_1024.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ToDo</title>
+	
 </head>
 <body>
 	<main class="main">
-		<div class="input_form">
+		<form class="input_form">
 			<img class="img_lupa" src="img/lupa.png">
-			<input class="search" type="search" name="" placeholder="Search task for to do">
-		</div>
+			<input  class="search" type="search" name="" placeholder="Search task for to do">
+		</form>
 		<div class="sections">
-			<p class="All">All</p>
-			<p class="Active">Active</p>
-			<p class="Done">Done</p>
+			<button class="All">All</button>
+			<button class="Active">Active</button>
+			<button class="Done">Done</button>
 		</div>
+
+		<form class="add_form">
+			<label class="add_label">New Task</label>
+			<input id="add_input" class="add_input" type="text" name="">
+			<button id="add_button" class="add_button">Add</button>
+		</form>
+
+
+		<ul class="listTasks">
+			<!-- <li class="task"></li> -->
+		</ul>
+
 	</main>
-
-
-
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script src="js/todo.js"></script>
+	
+	
+	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </body>
 </html>
